@@ -64,12 +64,6 @@ app/
 - Sidebar izquierdo y derecho fijos (`position: sticky`)
 - Diseño responsivo con breakpoints
 
-## Despliegue en Vercel
-
-1. Crear repositorio en la organización del curso: `darwin-tangarife-portafolio`
-2. Conectar el repositorio en [vercel.com](https://vercel.com)
-3. El dominio resultante: `darwin-tangarife.vercel.app`
-4. Cada push a `main` dispara un despliegue automático
 
 ## Notas
 
