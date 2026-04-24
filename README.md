@@ -2,7 +2,7 @@
 
 Portafolio web profesional de Darwin Andrés Tangarife Avendaño, desarrollador backend con experiencia en Java, Spring Boot y microservicios.
 
-## 🛠 Tecnologías
+## Tecnologías
 
 - **Next.js 15** — Framework React con App Router
 - **TypeScript** — Tipado estático
@@ -70,3 +70,8 @@ app/
 - Los datos del portafolio están en cada componente organismo.
 - Las imágenes de proyectos se ubican en `/public/` (ej. `project-quind.jpg`).
 - Para agregar proyectos, editar el array `projects` en `PortfolioSection.tsx`.
+
+
+## Demo Vercel
+
+[Ver portafolio](https://darwin-andres-portafolio.vercel.app/)

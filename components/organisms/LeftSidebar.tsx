@@ -57,9 +57,9 @@ export default function LeftSidebar() {
           <div style={{
             width: "100%", height: "100%", borderRadius: "50%",
             background: "var(--bg-card)", display: "flex", alignItems: "center",
-            justifyContent: "center", fontSize: "2.5rem", fontWeight: 800, color: "var(--accent)",
-          }}>
-            DT
+            overflow: "hidden",
+            }}>
+              <img src="/foto.jpg" alt="Darwin Tangarife" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
           <div className="status-dot" style={{ position: "absolute", bottom: "6px", right: "6px" }} />
         </div>
