@@ -27,7 +27,11 @@ export default function EducationCard({
   return (
     <div
       className="card"
-      style={{ padding: "1.75rem", display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "1.5rem" }}
+      style={{
+        padding: "1.25rem",
+        display: "grid",
+        gridTemplateColumns: "1fr",
+        gap: "0.75rem",}}
     >
       {/* Left column: institution and dates */}
       <div>

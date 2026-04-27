@@ -90,7 +90,7 @@ export default function ExperienceSection() {
 
               <div className="card" style={{ padding: "1.75rem" }}>
                 {/* Header row */}
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.25rem" }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginBottom: "1.25rem" }}>
                   <div>
                     <h3 style={{ fontWeight: 800, fontSize: "1.05rem", color: "var(--text-primary)", marginBottom: "3px" }}>
                       {exp.role}

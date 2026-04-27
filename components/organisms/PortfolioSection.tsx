@@ -267,25 +267,6 @@ export default function PortfolioSection() {
                   <GithubIcon size={16} /> GitHub
                 </a>
               )}
-              {activeProject.liveUrl && (
-                <a href={activeProject.liveUrl} target="_blank" rel="noopener noreferrer"
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    padding: "0.7rem 1.4rem",
-                    borderRadius: "10px",
-                    background: "linear-gradient(135deg, var(--accent-2), var(--accent))",
-                    color: "#fff",
-                    fontWeight: 600,
-                    fontSize: "0.85rem",
-                    textDecoration: "none",
-                    transition: "all 0.2s ease",
-                  }}
-                >
-                  <ExternalLink size={16} /> Ver en vivo
-                </a>
-              )}
             </div>
           </div>
         </div>

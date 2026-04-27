@@ -22,7 +22,7 @@ export default function HeroSection() {
           pointerEvents: "none",
         }} />
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "2rem", alignItems: "center", position: "relative", zIndex: 1 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "2rem", alignItems: "center", position: "relative", zIndex: 1,flexWrap: "wrap", }}>
           <div className="animate-fadeInUp">
             <div className="mono" style={{ color: "var(--accent)", fontSize: "0.8rem", fontWeight: 500, marginBottom: "0.75rem" }}>
               &lt; Hola, mundo 👋 /&gt;
@@ -70,7 +70,7 @@ export default function HeroSection() {
 
           {/* Avatar */}
           <div className="animate-float" style={{
-            width: "180px", height: "180px", borderRadius: "50%",
+            width: "clamp(100px, 20vw, 180px)", height: "clamp(100px, 20vw, 180px)", borderRadius: "50%",
             background: "linear-gradient(135deg, var(--accent-2), var(--accent))",
             padding: "4px", flexShrink: 0,
           }}>
@@ -91,9 +91,11 @@ export default function HeroSection() {
             className="animate-scaleIn"
             onClick={e => e.stopPropagation()}
             style={{
-              background: "var(--bg-card)", border: "1px solid var(--border-hover)",
-              borderRadius: "24px", padding: "2.5rem", maxWidth: "480px", width: "100%",
-              position: "relative", boxShadow: "0 24px 80px rgba(0,212,255,0.12)",
+                background: "var(--bg-card)", border: "1px solid var(--border-hover)",
+                borderRadius: "24px", padding: "2.5rem", maxWidth: "480px", width: "100%",
+                position: "relative", boxShadow: "0 24px 80px rgba(0,212,255,0.12)",
+                maxHeight: "90vh",
+                overflowY: "auto",
             }}
           >
             <button
@@ -119,7 +121,7 @@ export default function HeroSection() {
                 fontSize: "0.78rem",
                 lineHeight: 2,
               }}>
-                <div style={{ color: "#6e7681", marginBottom: "2px" }}>// contacto.ts</div>
+                <div style={{ color: "#6e7681", marginBottom: "2px" }}>{"//contacto.ts"}</div>
                 <div>
                   <span style={{ color: "#ff7b72" }}>const </span>
                   <span style={{ color: "#79c0ff" }}>developer</span>
@@ -146,7 +148,7 @@ export default function HeroSection() {
                 </div>
                 <div><span style={{ color: "#e6edf3" }}>{"}"}</span></div>
                 <div style={{ marginTop: "4px" }}>
-                  <span style={{ color: "#6e7681" }}>// ¿Hablamos? Escríbeme cuando quieras 👇</span>
+                  <span style={{ color: "#6e7681" }}>{"// ¿Hablamos? Escríbeme cuando quieras 👇"}</span>
                 </div>
               </div>
 
