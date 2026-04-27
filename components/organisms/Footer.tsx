@@ -71,8 +71,8 @@ export default function Footer() {
 
         <div className="glow-line" style={{ marginBottom: "1.5rem" }} />
 
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "6px" }}>
-          <p style={{ color: "var(--text-muted)", fontSize: "0.78rem", display: "flex", alignItems: "center", gap: "6px" }}>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "6px", flexWrap: "wrap", textAlign: "center" }}>
+          <p style={{ color: "var(--text-muted)", fontSize: "0.78rem", display: "flex", alignItems: "center", gap: "6px", flexWrap: "wrap", justifyContent: "center"  }}>
             © {year} Darwin Andrés Tangarife Avendaño · Hecho con <HeartIcon size={12} /> usando Next.js & TailwindCSS
           </p>
         </div>
